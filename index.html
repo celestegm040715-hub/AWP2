@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AWP - Menú de Unidades</title>
+  <title>Inicio - Proyecto AWP</title>
 
+  <!-- Fuente moderna y colores pastel -->
   <style>
     body {
       margin: 0;
@@ -20,30 +21,32 @@
 
     .container {
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.85);
+      background-color: rgba(255, 255, 255, 0.8);
       padding: 50px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-      max-width: 450px;
+      max-width: 400px;
     }
 
     h1 {
-      margin-bottom: 25px;
-      font-size: 26px;
+      margin-bottom: 10px;
+      font-size: 28px;
       color: #444;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
+    p {
+      font-size: 16px;
       margin-bottom: 30px;
     }
 
-    li {
-      margin: 15px 0;
+    .info {
+      margin-bottom: 25px;
+      font-size: 16px;
+      color: #555;
     }
 
     a {
+      display: inline-block;
       text-decoration: none;
       background-color: #ff8fab;
       color: white;
@@ -51,20 +54,11 @@
       border-radius: 25px;
       font-weight: bold;
       transition: all 0.3s ease;
-      display: inline-block;
     }
 
     a:hover {
       background-color: #ff5d8f;
       transform: scale(1.05);
-    }
-
-    .back {
-      background-color: #74c0fc;
-    }
-
-    .back:hover {
-      background-color: #4dabf7;
     }
 
     footer {
@@ -76,17 +70,16 @@
 </head>
 <body>
   <div class="container">
-    <h1>Menú - Unidad 1</h1>
+    <h1>Bienvenida al Proyecto</h1>
+    <div class="info">
+      <p><strong>Nombre:</strong> Celeste Gómez Mendoza</p>
+      <p><strong>Matrícula:</strong> 22307046</p>
+    </div>
 
-    <ul>
-      <li><a href="U1/SW/index.html">SW</a></li>
-      <li><a href="U1/SW2/index.html">SW2</a></li>
-      <li><a href="U1/SW3/index.html">SW3</a></li>
-    </ul>
+    <a href="AWP/index.html">Ir a AWP</a>
 
-    <a href="../index.html" class="back">Volver al inicio</a>
-
-    <footer>Creado por <strong>Celeste Gómez Mendoza</strong> 💖</footer>
+    <footer>Desarrollado por Celeste</footer>
   </div>
 </body>
 </html>
+
